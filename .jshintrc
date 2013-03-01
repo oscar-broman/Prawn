@@ -1,6 +1,6 @@
 {
   "node": true,
-	"globalstrict": true,
+  "globalstrict": true,
   "shadow": true,
   "sub": true
 }
