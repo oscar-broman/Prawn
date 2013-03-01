@@ -8,6 +8,9 @@
   "main": {
     "prawn": "./lib/prawn.js"
   },
+  "scripts": {
+    "test": "jshint ./lib"
+  },
   "keywords": [
     "cli",
     "samp",
