@@ -1,6 +1,19 @@
 {
   "node": true,
   "globalstrict": true,
+  "strict": true,
   "shadow": true,
-  "sub": true
+  "sub": true,
+  "trailing": true,
+  "camelcase": true,
+  "eqeqeq": true,
+  "immed": true,
+  "indent": 2,
+  "newcap": true,
+  "noarg": true,
+  "noempty": true,
+  "nonew": true,
+  "quotmark": "single",
+  "undef": true,
+  "maxparams": 5
 }
