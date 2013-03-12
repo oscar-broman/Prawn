@@ -10,7 +10,7 @@ Pre-compiler for the Pawn language. Made for SA-MP scripting.
 2. Clone this repo or [download it](https://github.com/oscar-broman/Prawn/archive/master.zip).
 3. Open the Node.js command prompt.
 4. Run `npm install` inside the repo.
-5. Invoke Prawn by running `node lib/prawn.js input-file.pwn`.
+5. Invoke Prawn by running `node lib/prawn input-file.pwn`.
 
 ## UNIX
 
@@ -20,4 +20,4 @@ Pre-compiler for the Pawn language. Made for SA-MP scripting.
 4. Run `winetricks vcrun2005 vcrun2010` to install the necessary runtimes.
 5. Clone this repo or [download it](https://github.com/oscar-broman/Prawn/archive/master.zip).
 6. Run `npm install` inside the repo.
-7. Invoke Prawn by running `node lib/prawn.js input-file.pwn`.
+7. Invoke Prawn by running `node lib/prawn input-file.pwn`.
