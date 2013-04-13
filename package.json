@@ -5,15 +5,20 @@
   "author": "Oscar Broman <oscar.broman@gmail.com>",
   "description": "Pre-compiler for the Pawn language. Made for SA-MP scripting.",
   "analyze": true,
-  "main": {
-    "prawn": "./lib/prawn.js"
+  "bin": {
+    "prawn": "./bin/cli.js"
+  },
+  "main": "./lib/prawn.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/oscar-broman/Prawn.git"
   },
   "scripts": {
     "test": "jshint ./lib"
   },
   "keywords": [
+    "build",
     "cli",
-    "samp",
     "compiler",
     "pawn"
   ],
@@ -24,7 +29,7 @@
     "tmp": "*",
     "temp": "*",
     "underscore": "*",
-    "watchr": "*"
+    "watchr": "2.3.3"
   },
   "bundledDependencies": [
     
@@ -35,7 +40,7 @@
   "licenses": [
     {
       "type": "MIT +no-false-attribs",
-      "url": "https://github.com/oscar-broman/prawn/raw/master/LICENSE"
+      "url": "https://github.com/oscar-broman/Prawn/raw/master/LICENSE"
     }
   ]
 }
